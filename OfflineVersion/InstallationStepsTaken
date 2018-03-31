@@ -1,0 +1,16 @@
+Per the instructions for Ubuntu by Bartosz at https://www.biostars.org/p/297263/#307015 we wanted to try for Win 32 bit OS machine.
+
+So we thought of executing the same commands with Win machine.
+
+1. First installed GIT
+2. getLibs.sh : For this file followed the steps one by one
+3. prepareLibs.sh : For this file followed the steps one by one
+4. prepareLocalExec.sh : For this file followed the steps one by one. For this we had to download JDK since we need java compiler
+5. After this our runLocal.bat was already working fine.
+6. So we did not have to execute the instructions for prepareJNLP.sh
+
+For the scripts sometimes we had to figure where to create folders. The folder paths in the sh files had to inspected and for few we had to change to right folders.
+
+For now this works on 32 bit Win OS with Java 8, we need to test if it would work on other configurations.
+
+Please try and let us know.
